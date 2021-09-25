@@ -40,14 +40,5 @@ public class SearchEntryActivity extends AppCompatActivity {
                 startActivity(new Intent(SearchEntryActivity.this, VetDurationActivity.class));
             }
         });
-
-        btnExit = (Button)findViewById(R.id.btnExit);
-        btnExit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
-
     }
 }

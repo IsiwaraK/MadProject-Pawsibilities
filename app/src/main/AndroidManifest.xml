@@ -12,14 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PawsibilitiesV3">
         <activity android:name=".VetDurationActivity"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+            android:theme="@style/Theme.PawsibilitiesV4">
         </activity>
         <activity
             android:name=".SearchActivity"
             android:label="Search Here" />
         <activity
             android:name=".SearchEntryActivity"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+            android:theme="@style/Theme.PawsibilitiesV4">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -27,14 +27,14 @@
         </activity>
         <activity
             android:name=".AdminPanel"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+            android:theme="@style/Theme.PawsibilitiesV4">
         </activity>
         <activity
             android:name=".AddActivity"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:theme="@style/Theme.PawsibilitiesV4"/>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+            android:theme="@style/Theme.PawsibilitiesV4"/>
 
         <meta-data
             android:name="preloaded_fonts"

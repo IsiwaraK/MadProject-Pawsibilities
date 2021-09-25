@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class SearchEntryActivity extends AppCompatActivity {
 
-    Button btnSearch,btnVetEntry,btnDay;
+    Button btnSearch,btnVetEntry,btnDay,btnExit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,5 +40,14 @@ public class SearchEntryActivity extends AppCompatActivity {
                 startActivity(new Intent(SearchEntryActivity.this, VetDurationActivity.class));
             }
         });
+
+        btnExit = (Button)findViewById(R.id.btnExit);
+        btnExit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
     }
 }

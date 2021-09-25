@@ -27,6 +27,7 @@ public class AddActivity extends AppCompatActivity {
     EditText province;
     EditText vurl;
     Button btnAdd,btnBack;
+    boolean isAllFieldsChecked = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,10 +44,17 @@ public class AddActivity extends AppCompatActivity {
         btnBack = (Button)findViewById(R.id.btnBack);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
+
+
             @Override
             public void onClick(View v) {
-                insertData();
-                clearAll();
+
+                isAllFieldsChecked = CheckAllFields();
+
+                if (isAllFieldsChecked) {
+                    insertData();
+                    clearAll();
+                }
             }
         });
 
@@ -92,4 +100,31 @@ public class AddActivity extends AppCompatActivity {
         vurl.setText("");
    }
 
+    private boolean CheckAllFields() {
+        if (name.length() == 0) {
+            name.setError("User Name is required");
+            return false;
+        }
+
+        if (mobile.length() == 0) {
+            mobile.setError("Mobile Number is required");
+            return false;
+        }
+
+        if (email.length() == 0) {
+            email.setError("Email is required");
+            return false;
+        }
+
+        if (province.length() == 0) {
+            province.setError("Province is required");
+            return false;
+
+        } else if (vurl.length() == 0) {
+            vurl.setError("Image Url is required");
+            return false;
+        }
+
+        return true;
+    }
 }

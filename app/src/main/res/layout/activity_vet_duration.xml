@@ -16,7 +16,7 @@
         android:layout_marginBottom="558dp"
         android:fontFamily="@font/telex"
         android:gravity="center"
-        android:text="Enter The Last Vet Visit And Todays Date"
+        android:text="Enter The Last Vet Visit And Today's Date"
         android:textColor="#624F6F"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -26,14 +26,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/daybanner2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="648dp"
-        android:layout_marginBottom="74dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="94dp"
         android:fontFamily="@font/telex"
         android:gravity="center"
         android:text="Since Your Last Vet Visit"
@@ -42,31 +41,26 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_result" />
 
     <TextView
         android:id="@+id/daybanner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="549dp"
-        android:layout_marginBottom="117dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/telex"
         android:gravity="center"
         android:text="It Has been"
         android:textColor="#624F6F"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_result"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
-
+        app:layout_constraintTop_toBottomOf="@+id/btn_cal"
+        app:layout_constraintVertical_bias="0.083" />
 
     <Button
         android:id="@+id/bt_birth"
@@ -94,9 +88,8 @@
         android:layout_weight="1"
         android:gravity="center"
         android:text="To"
-        android:textColor="@color/black"
+        android:textColor="#624F6F"
         android:textSize="20sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -124,7 +117,8 @@
         android:id="@+id/btn_cal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="208dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginBottom="228dp"
         android:gravity="center"
         android:text="Calculate"
         android:textSize="20sp"
@@ -132,7 +126,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv_result"
@@ -140,7 +135,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="549dp"
+        android:layout_marginTop="539dp"
         android:layout_marginBottom="107dp"
         android:fontFamily="@font/telex"
         android:gravity="center"
@@ -153,7 +148,7 @@
         app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.697" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

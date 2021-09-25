@@ -4,36 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/basic"
     android:padding="10dp"
     tools:context=".VetDurationActivity">
 
-    <Button
-        android:id="@+id/bt_birth"
+    <TextView
+        android:id="@+id/daybanner3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="50dp"
-        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_circle_24"
-        android:drawableRight="@drawable/ic_baseline_arrow_drop_down_circle_24"
-        android:text="01/01/2019"
-        android:textSize="20sp"
-        app:backgroundTint="#892CC8"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="34dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="173dp"
-        android:layout_marginBottom="487dp"
-        android:layout_weight="1"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="558dp"
+        android:fontFamily="@font/telex"
         android:gravity="center"
-        android:text="To"
-        android:textColor="@color/black"
+        android:text="Enter The Last Vet Visit And Todays Date"
+        android:textColor="#624F6F"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,30 +26,105 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_today"
+    <TextView
+        android:id="@+id/daybanner2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="648dp"
+        android:layout_marginBottom="74dp"
+        android:fontFamily="@font/telex"
+        android:gravity="center"
+        android:text="Since Your Last Vet Visit"
+        android:textColor="#624F6F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/daybanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginBottom="117dp"
+        android:fontFamily="@font/telex"
+        android:gravity="center"
+        android:text="It Has been"
+        android:textColor="#624F6F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+
+    <Button
+        android:id="@+id/bt_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="263dp"
+        android:layout_marginBottom="435dp"
         android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_circle_24"
         android:drawableRight="@drawable/ic_baseline_arrow_drop_down_circle_24"
         android:text="01/01/2019"
         android:textSize="20sp"
         app:backgroundTint="#892CC8"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="34dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginBottom="388dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="To"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:layout_marginBottom="322dp"
+        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_circle_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_drop_down_circle_24"
+        android:text="01/01/2019"
+        android:textSize="20sp"
+        app:backgroundTint="#892CC8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_cal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="208dp"
         android:gravity="center"
         android:text="Calculate"
         android:textSize="20sp"
@@ -73,30 +132,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_today"
-        app:layout_constraintVertical_bias="0.383" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="372dp"
-        android:layout_marginBottom="276dp"
-        android:fontFamily="@font/telex"
-        android:gravity="center"
-        android:text="Result"
-        android:textColor="#624F6F"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.464" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/tv_result"
@@ -105,7 +141,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="549dp"
-        android:layout_marginBottom="117dp"
+        android:layout_marginBottom="107dp"
         android:fontFamily="@font/telex"
         android:gravity="center"
         android:text="0 Years | 0 Months | 0 Days"
@@ -116,7 +152,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

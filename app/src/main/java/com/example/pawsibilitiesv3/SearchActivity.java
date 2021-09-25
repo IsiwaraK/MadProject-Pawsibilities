@@ -20,8 +20,6 @@ import com.google.firebase.database.FirebaseDatabase;
 public class SearchActivity extends AppCompatActivity {RecyclerView recyclerView;
     SearchAdapter searchAdapter;
 
-    FloatingActionButton searchfloatingActionButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,14 +36,6 @@ public class SearchActivity extends AppCompatActivity {RecyclerView recyclerView
 
         searchAdapter = new SearchAdapter(options);
         recyclerView.setAdapter(searchAdapter);
-
-        searchfloatingActionButton = (FloatingActionButton)findViewById(R.id.searchfloatingActionButton);
-        searchfloatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
-            }
-        });
 
     }
 

@@ -7,19 +7,50 @@
     android:background="@drawable/basic">
 
     <Button
-        android:id="@+id/btnSearch1"
+        android:id="@+id/btnSearch"
         android:layout_width="300dp"
         android:layout_height="65dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="250dp"
         android:layout_marginBottom="320dp"
         android:text="Search"
         app:backgroundTint="#892CC8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/btnVetEntry"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="236dp"
+        android:text="are you a vet ?"
+        app:backgroundTint="#892CC8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <Button
+        android:id="@+id/btnDay"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="164dp"
+        android:text="Vet duration"
+        app:backgroundTint="#892CC8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
 
     <Button
         android:id="@+id/btnExit2"
@@ -43,14 +74,15 @@
         android:layout_marginTop="144dp"
         android:layout_marginBottom="473dp"
         android:fontFamily="@font/telex"
-        android:text="Find The Best Vets Around You"
         android:gravity="center"
+        android:text="Find The Best Vets Around You"
         android:textColor="#624F6F"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

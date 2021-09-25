@@ -14,7 +14,7 @@
         android:layout_marginLeft="50dp"
         android:fontFamily="@font/telex"
         android:gravity="center"
-        android:text="Current Vets"
+        android:text="Registered Vets"
         android:textColor="#624F6F"
         android:textSize="25dp" />
 

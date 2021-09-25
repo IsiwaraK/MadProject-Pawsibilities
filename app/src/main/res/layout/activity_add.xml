@@ -11,8 +11,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginLeft="50dp"
-        android:text="Add New Vet Data"
+        android:layout_marginLeft="70dp"
+        android:text="Register As A New Vet"
         android:textSize="25dp"
         android:gravity="center"
         android:fontFamily="@font/telex"
@@ -112,7 +112,7 @@
         android:fontFamily="@font/telex"
         android:textColor="#624F6F"
         android:layout_marginBottom="5dp"
-        android:text="Image Url"/>
+        android:text="Profile Image Url"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -127,10 +127,10 @@
 
     <Button
         android:id="@+id/btnAdd"
-        android:layout_width="300dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="45dp"
         android:background="@drawable/rounded"
         android:fontFamily="@font/telex"
@@ -141,9 +141,9 @@
 
     <Button
         android:id="@+id/btnBack"
-        android:layout_width="300dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="45dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="45dp"
         android:background="@drawable/rounded"

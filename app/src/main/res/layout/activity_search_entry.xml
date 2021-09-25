@@ -11,40 +11,45 @@
         android:id="@+id/btnSearch"
         android:layout_width="300dp"
         android:layout_height="65dp"
-        android:layout_marginTop="65dp"
-        android:layout_marginBottom="2dp"
-        android:text="Search"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="383dp"
+        android:text="Search By Province"
         app:backgroundTint="#892CC8"
-        app:layout_constraintBottom_toTopOf="@+id/btnVetEntry"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/btnVetEntry"
         android:layout_width="300dp"
         android:layout_height="65dp"
-        android:layout_marginTop="2dp"
-        android:text="are you a vet ?"
+        android:layout_marginTop="544dp"
+        android:layout_marginBottom="91dp"
+        android:text="Are you a vet Yourself ?"
         app:backgroundTint="#892CC8"
-        app:layout_constraintBottom_toTopOf="@+id/btnDay"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSearch" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnDay"
         android:layout_width="300dp"
         android:layout_height="65dp"
-        android:text="Vet duration"
+        android:layout_marginTop="332dp"
+        android:layout_marginBottom="303dp"
+        android:text="Duration Calculator"
         app:backgroundTint="#892CC8"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnVetEntry" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"

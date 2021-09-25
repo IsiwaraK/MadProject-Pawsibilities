@@ -72,7 +72,7 @@
         android:gravity="center"
         android:text="Welcome To the Veterinay Section"
         android:textColor="#624F6F"
-        android:textSize="24sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

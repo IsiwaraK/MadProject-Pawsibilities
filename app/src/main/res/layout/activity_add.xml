@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/basic"
+    android:paddingTop="35dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Add New Vet Data"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:fontFamily="@font/telex"
+        android:textColor="#624F6F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/telex"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#624F6F"
+        android:text="Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/telex"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="#624F6F"
+        android:id="@+id/txtName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/telex"
+        android:layout_marginTop="15dp"
+        android:textColor="#624F6F"
+        android:layout_marginBottom="5dp"
+        android:text="Mobile"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/telex"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="#624F6F"
+        android:id="@+id/txtMobile"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/telex"
+        android:layout_marginTop="15dp"
+        android:textColor="#624F6F"
+        android:layout_marginBottom="5dp"
+        android:text="Email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/telex"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="#624F6F"
+        android:id="@+id/txtEmail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/telex"
+        android:textColor="#624F6F"
+        android:layout_marginBottom="5dp"
+        android:text="Province"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/telex"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="#624F6F"
+        android:id="@+id/txtProvince"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/telex"
+        android:textColor="#624F6F"
+        android:layout_marginBottom="5dp"
+        android:text="Image Url"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/telex"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="#624F6F"
+        android:id="@+id/txtimageurl"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/telex"
+        android:gravity="center"
+        android:text="SAVE"
+        android:textAllCaps="false"
+        app:backgroundTint="#892CC8" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/telex"
+        android:gravity="center"
+        android:text="DATABASE"
+        android:textAllCaps="false"
+        app:backgroundTint="#892CC8" />
+
+</LinearLayout>

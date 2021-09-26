@@ -34,6 +34,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478405444201:android:b7dc86fc684afda23b58f8",
+        "android_client_info": {
+          "package_name": "com.madexample.pawssibilities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478405444201-fbce6hnui6qptkbqgmj46hnro13qvu5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZgUGbfsOfrBb2GcvXqknKoWcyQghPO1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478405444201-fbce6hnui6qptkbqgmj46hnro13qvu5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

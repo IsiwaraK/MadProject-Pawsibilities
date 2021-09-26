@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">PawsibilitiesV3</string>
-    <string name="VetAdminHead">Welcome to Vet Admin Panel</string>
+    <string name="app_name">Pawssibilities</string>
+    <string name="payment">payment</string>
+    <string name="checkout">checkout</string>
 </resources>

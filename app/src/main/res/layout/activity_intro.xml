@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/opening"
-    tools:context=".MainActivity">
+    android:background="@drawable/intro"
+    tools:context=".intro">
 
     <Button
         android:layout_width="355dp"
         android:layout_height="577dp"
         android:layout_centerHorizontal="true"
         android:background="#0DFFFFFF"
-        android:onClick="btnMain"></Button>
-
+        android:onClick="btnIntro"></Button>
 </RelativeLayout>
-

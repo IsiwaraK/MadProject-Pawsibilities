@@ -14,7 +14,7 @@
         android:layout_marginLeft="50dp"
         android:fontFamily="@font/telex"
         android:gravity="center"
-        android:text="Current Vets"
+        android:text="Registered Vets"
         android:textColor="#624F6F"
         android:textSize="25dp" />
 
@@ -23,6 +23,7 @@
         android:layout_width="409dp"
         android:layout_height="match_parent"
         android:layout_marginTop="90dp"
+        android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -44,10 +45,10 @@
         app:backgroundTint="#BC72EF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.78"
         app:srcCompat="@drawable/home_back"
         tools:ignore="VectorDrawableCompat" />
 

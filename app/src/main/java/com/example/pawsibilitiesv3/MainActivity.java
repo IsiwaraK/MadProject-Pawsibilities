@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),SearchActivity.class));
+                startActivity(new Intent(getApplicationContext(),SearchEntryActivity.class));
             }
         });
 

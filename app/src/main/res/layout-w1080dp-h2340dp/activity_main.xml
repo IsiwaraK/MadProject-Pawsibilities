@@ -9,38 +9,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <!--wallpaper -->
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="925dp"
-        android:scaleType="center"
+        android:layout_height="match_parent"
         android:scrollbarDefaultDelayBeforeFade="@integer/material_motion_duration_medium_1"
         android:scrollbarStyle="insideOverlay"
         android:visibility="visible"
         app:srcCompat="@drawable/wallpaper_basic"
         tools:visibility="visible" />
 
-
-    <!--logo-->
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="83dp"
-        android:layout_height="77dp"
-        android:scaleType="fitCenter"
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        app:srcCompat="@drawable/logo"
-        android:layout_gravity="right"/>
-
-
-    <!--list-->
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="836dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:clickable="false"
         android:divider="@null"
@@ -63,29 +45,14 @@
         android:layout_marginRight="100dp"
         android:layout_marginBottom="100dp"></ListView>
 
-    <!--FAB-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/FAB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
         android:src="@drawable/add_button"
         app:layout_anchor="@id/lvToDoList"
-        app:layout_anchorGravity="bottom|right|end"
-        android:tint="@color/purple"/>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="295dp"
-        android:layout_height="73dp"
-        android:fontFamily="@font/poppinsbold"
-        android:text="Forum"
-        android:textColor="@color/purple"
-        android:textSize="60dp"
-        android:visibility="visible"
-        tools:visibility="visible"
-        android:layout_gravity="center_horizontal"/>
+        app:layout_anchorGravity="bottom|right|end" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

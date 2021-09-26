@@ -1,2 +1,2 @@
-rootProject.name = "PawsibilitiesV3"
+rootProject.name = "forum"
 include ':app'

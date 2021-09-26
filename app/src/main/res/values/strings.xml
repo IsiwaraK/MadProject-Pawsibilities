@@ -1,4 +1,23 @@
 <resources>
-    <string name="app_name">PawsibilitiesV3</string>
-    <string name="VetAdminHead">Welcome to Vet Admin Panel</string>
+    <string name="app_name">Pawssibilities</string>
+    <string name="title_listitems">Omg look at my babies</string>
+    <string name="title_listitems2">My kitty loves me</string>
+    <string name="title_listitems3">Bunny not impressed</string>
+    <string name="description">Stewart and Bella hungout today and they were not going at each other, a great first step!</string>
+    <string name="description2">Lady Marmalaide came running towards me with her short tiny legs, it was so cute, couldnt help but snap a picture to cherish it forever</string>
+    <string name="description3">Brutus was looking at me all gangsta today, he certainly knows something i dont.</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="more">More</string>
+    <string name="share">Share</string>
+    <string name="submit">submit</string>
+    <string name="phone_hint">Hint</string>
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
 </resources>

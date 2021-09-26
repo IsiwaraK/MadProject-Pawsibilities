@@ -120,7 +120,7 @@ public class VetDurationActivity extends AppCompatActivity {
                         tvResult.setText(years+" Years | "+months+" Months | "+days+" Days");
                     }else {
                         Toast.makeText(getApplicationContext()
-                        ,"Birth Date Should not be larger than todays date"
+                        ,"Last Vet Visit Date Should not be larger than todays date"
                         ,Toast.LENGTH_SHORT).show();
                     }
                 } catch (ParseException e) {

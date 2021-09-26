@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <!--logo-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="925dp"
+        android:scaleType="center"
+        android:scrollbarDefaultDelayBeforeFade="@integer/material_motion_duration_medium_1"
+        android:scrollbarStyle="insideOverlay"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wallpaper_basic"
+        tools:visibility="visible">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="295dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="60dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Post"
+        android:textColor="@color/purple"
+        android:textSize="60dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="83dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="148dp"
+        android:scaleType="centerInside"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="388dp"
+        android:layout_height="387dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="255dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="366dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/cardview_shadow_start_color"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            app:layout_constrainedHeight="true"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="312dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="303dp">
+
+                <EditText
+                    android:id="@+id/inputtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:maxLength="50"
+                    android:inputType="text"
+                    android:text="Title"
+                    android:textColor="@color/purple"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/inputdes"
+                    android:layout_width="match_parent"
+                    android:layout_height="14dp"
+                    android:layout_weight="1"
+                    android:maxLength="200"
+                    android:elegantTextHeight="true"
+                    android:ems="10"
+                    android:textColor="@color/purple"
+                    android:shadowColor="@color/black"
+                    android:inputType="text"
+                    android:text="Description"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="103dp"
+        android:layout_height="77dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="268dp"
+        android:layout_marginTop="636dp"
+        android:layout_weight="1"
+        android:fadingEdge="vertical"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text=">"
+        android:foregroundTint="@color/purple"
+        android:textColor="@color/purple"
+        android:theme="@style/Theme.MaterialComponents.DayNight.DialogWhenLarge"
+        app:layout_constraintLeft_toLeftOf="@id/linearLayout"
+        app:layout_constraintTop_toTopOf="@id/textView2" />
+
+    <ImageButton
+        android:id="@+id/insertimage"
+        android:layout_width="125dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="638dp"
+        android:layout_marginBottom="210dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/no_image"/>
+
+    <Button
+        android:id="@+id/yourposts"
+        android:layout_width="103dp"
+        android:layout_height="77dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="252dp"
+        android:layout_marginTop="92dp"
+        android:layout_weight="1"
+        android:fadingEdge="vertical"
+        android:foregroundTint="@color/purple"
+        android:gravity="center"
+        android:text="Your posts"
+        android:textColor="@color/purple"
+        android:textSize="15dp"
+        android:theme="@style/Theme.MaterialComponents.DayNight.DialogWhenLarge"
+        app:layout_constraintLeft_toLeftOf="@id/linearLayout"
+        app:layout_constraintTop_toTopOf="@id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
